@@ -91,13 +91,11 @@ def length_scatter_plot(
     token_lengths = [len(token) for token in unique_tokens]
 
     plt.figure(figsize=(10, 7))
-    plt.scatter(
-        token_lengths, frequencies, alpha=0.5, color='steelblue', edgecolors='k'
-    )
+    plt.scatter(token_lengths, frequencies, alpha=0.5, color='red', edgecolors='k')
 
     # add labels for top 10 most frequent tokens
     sorted_words = sorted(counts.items(), key=lambda x: x[1], reverse=True)
-    for word, freq in sorted_words[:10]:  # Label top 10 tokens
+    for word, freq in sorted_words[:20]:  # Label top 20 tokens
         plt.annotate(
             word,
             (len(word), freq),
