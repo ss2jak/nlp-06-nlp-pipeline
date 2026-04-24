@@ -17,7 +17,7 @@ https://github.com/ss2jak/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate
 
 
 3. Pipeline Structure (EVTL)
-The project followed an EVATL (Extract, Validate, Transform, Load) pipeline structure.
+The project followed an EVTAL (Extract, Validate, Transform, Load) pipeline structure.
 •	Extract: In stage01_extract.py, HTML data was pulled from the URL https://arxiv.org/abs/2602.20021  and saved locally.
 •	Validate: In stage02_validate_jak.py, required HTML elements were checked to confirm that the page structure contained expected fields before moving forward.
 •	Transform: In stage03_transform_jak.py, metadata fields were extracted, text was cleaned, tokens were generated, and additional features such as token counts and author counts were created.
