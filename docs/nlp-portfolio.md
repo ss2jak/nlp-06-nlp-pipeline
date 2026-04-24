@@ -1,3 +1,7 @@
+Jakiel David
+4-23-26
+P7: Portfolio Presentation
+
 
 1. NLP Techniques Implemented
 This project implemented core NLP techniques to process structured web text into usable data. The pipeline used web scraping to collect HTML content using requests.get() in stage01_extract.py. After extraction, HTML parsing was performed using BeautifulSoup in stage02_validate_jak.py to locate structured elements such as the title, authors, abstract, and subject.
@@ -36,7 +40,7 @@ One useful insight was how vocabulary diversity metrics helped identify repeated
 Overall, this project demonstrated how unstructured web content can be transformed into structured data using an EVTL pipeline. The results showed how combining web scraping, NLP preprocessing, and visualization techniques can produce meaningful insights from textual data in a reproducible workflow.
 https://github.com/ss2jak/nlp-06-nlp-pipeline/blob/main/src/nlp/pipeline_web_html.py
 
-6.Representative Work
+6. Representative Work
 https://github.com/ss2jak/nlp-03--text-exploration/blob/main/notebooks%20copy/nlp_corpus_fst_jak.ipynb
 This project shows skills in working with APIs, handling JSON data, and cleaning and transforming text into structured formats, which are core tasks in real-world analytics workflows. It demonstrates the ability to automate data collection and build repeatable pipelines, which improves efficiency and reliability. These skills are representative of a good analyst because they show the ability to gather reliable data, prepare it correctly, and make it usable for analysis and decision-making.
 https://github.com/ss2jak/nlp-03--text-exploration/blob/main/notebooks%20copy/nlp_corpus_fst_jak.ipynb
@@ -45,9 +49,8 @@ https://github.com/ss2jak/nlp-06-nlp-pipeline/tree/main/src/nlp
 This project shows skills in building a full NLP pipeline, including extracting data, validating it, transforming text, analyzing patterns, and loading results into structured outputs. It demonstrates the ability to organize workflows into repeatable stages, which is important because NLP pipelines typically involve step-by-step processing such as cleaning text and generating features.
 These skills represent a good analyst because they show the ability to manage complex data workflows, ensure data quality, and produce reliable results that can be reused for reporting or decision-making.
 
-
 7. Skills
-Skills demonstrated in the linked files/projects.
+Skills demonstrated in the linked files.
 •	Process data in Python, including reading, cleaning, and transforming text files and DataFrames
 •	Work with real-world text data from HTML pages, APIs, and raw corpora
 •	Extract and structure information such as titles, metadata, and abstract content from unstructured sources
